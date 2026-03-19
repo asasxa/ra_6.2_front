@@ -5,7 +5,7 @@ import NotesList from './components/NotesList';
 import type INote from './components/INote';
 import createRequest from './createRequest';
 
-const url = 'https://https://ra-6-2-back-1.onrender.com/.netlify/functions/server/notes';
+const url = 'https://ra-6-2-back.onrender.com';
 
 function App() {
   const [ notes, setNotes ] = useState<INote[]>([]);
