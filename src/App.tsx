@@ -5,7 +5,7 @@ import NotesList from './components/NotesList';
 import type INote from './components/INote';
 import createRequest from './createRequest';
 
-const url = 'https://ra-6-2-back.onrender.com';
+const url = 'https://ra-6-2-back.onrender.com/notes';
 
 function App() {
   const [ notes, setNotes ] = useState<INote[]>([]);
